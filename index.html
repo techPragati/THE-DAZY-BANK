@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>THE DAZY BANK</title>
+	 <meta charset="utf-8">
+	   <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+ <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<style>
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow: hidden;
+	font-family: 'Josefin Sans', sans-serif;
+}
+header{
+	width: 100%;
+	height: 100vh;
+	background-image: url("https://cdn.pixabay.com/photo/2017/09/07/08/54/money-2724241_960_720.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	}
+.mainHeader{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.mainHeader nav{
+	width: 650px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 30px;
+	
+}
+.mainHeader nav a{
+	text-decoration: none;
+	/* color: rgba(0, 0, 0, 0.356); */
+	text-transform: uppercase;
+	font-weight: bold;
+	color: rgb(255, 0, 128);
+}
+.mainHeader .active{
+box-sizing: border;
+border: 4px solid rgb(0, 0, 0);
+padding: 15px;
+color: rgb(0, 0, 0);
+padding: 10px 45px;
+text-align: center;
+font-size: 14px;
+color: rgb(255, 255, 255);
+border: none;
+border-radius: 10px;
+}
+.mainHeader button{
+	padding: 10px 45px;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	border: none;
+	background-image: linear-gradient(to right, #bf00ff, #0070fa, #ff00bf);
+    border-radius: 10px;
+}
+.menubtn{
+	margin-right: 60px;
+}
+main{	width: 100%;
+	display: flex;
+	justify-content: space-between;
+align-items: center;
+}
+main .right-sec{
+padding-right: 70px;
+}
+main .left-sec{
+padding-left: 100px;
+}
+.left-sec h2{
+font-size: 20px;
+text-transform: capitalize;
+font-weight: lighter;
+color: rgb(255, 0, 0);
+font-weight: bold;
+margin-top: 100px;
+margin-bottom: 15px;
+}
+.left-sec h1{
+font-size: 55px;
+text-transform: capitalize;
+font-weight: 700;
+margin: 15px 0;
+}
+.left-sec p{
+margin-bottom: 20px;
+}
+.left-sec button{
+	padding: 10px 45px;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	border: none;
+	background-image: linear-gradient(to right, #649bff, #0070fa, #649bff);
+    border-radius: 10px;
+}
+
+.right-sec img {
+    width: 600px;
+    height: 500px;
+	margin-right: 210px;
+	margin-top: 30px;
+	border-bottom: 5px solid transparent;
+	border-radius: 100px;
+	margin-left: 20px;
+	}
+.left-sec .animate__fadeInLeftBig{
+    animation-duration: 3s;
+	}
+.left-sec .animate__fadeInRightBig{
+    animation-duration: 3s;
+	}
+.right-sec .animate__fadeInRightBig{
+    animation-duration: 3s;
+	}
+.mainHeader h1{
+font-size: 35px;
+text-transform: capitalize;
+font-weight: 700;
+margin: 15px 0;
+}
+.mainHeader img{
+	width: 90px;
+	height: 90px;
+	margin-left: 30px;
+	margin-top: 10px;
+	border-radius: 100px;
+}
+.footer p{
+	color: #FF0080;
+}
+
+</style>
+<body onload="loader()">
+<header class="Header">
+	<div class="mainHeader">
+		<img src="https://media.glassdoor.com/sqll/2143300/the-sparks-foundation-squarelogo-1556515236044.png" alt="logo">
+		<h1>THE SPARKS FOUNDATION</h1>
+  		<nav >
+			<a href="index.html" class="active"></a>
+			<a href="customer.html"> Customers</a>
+			<a href="transaction.html">Money Transaction</a>
+		</nav>
+		<div class="menubtn">
+			<button>ASK ME?</button>
+		</div>
+	</div>
+	<main>
+		<section class="left-sec">
+			<h1 class="animate_animated animate__fadeInRightBig py-3" >THE DAZY BANK</h1>
+			<section class="left-sec">
+		<section class="left-sec">
+			<h2 class="animate_animated animate__fadeInLeftBig">Online Transaction (AAPKA BHAROSA HAMARI JIMMEDARI)</h2>
+			<figure>
+				<img src="https://img.etimg.com/thumb/msid-80978150,width-300,imgsize-193111,,resizemode-4,quality-100/bank.jpg" width="500px" height="300px" class="animate_animated animate__fadeInRightBig py-3" alt="CARD">
+			</figure>
+	
+		</section>
+		<section class="right-sec">
+			
+			
+		</section>
+	</main>
+</header>
+</body>
+</html>
